@@ -4,7 +4,7 @@
  * Copyright (c) 2011 David Bushell
  * Dual-licensed under the BSD or MIT licenses: http://socialitejs.com/license.txt
  */
-window.Socialite = (function(window, document, undefined)
+window.callpage.Socialite = (function(window, document, undefined)
 {
     'use strict';
 
@@ -694,8 +694,8 @@ window.Socialite = (function(window, document, undefined)
     Socialite.widget('linkedin', 'share',     { init: linkedinInit, intype: 'Share' });
     Socialite.widget('linkedin', 'recommend', { init: linkedinInit, intype: 'RecommendProduct' });
     Socialite.widget('linkedin', 'follow', { init: linkedinInit, intype: 'FollowCompany' });
-    
-})(window, window.document, window.Socialite);
+
+})(window, window.document, window.callpage.Socialite);
 
 /**
  * Execute any queued functions (don't enqueue before the document has loaded!)
